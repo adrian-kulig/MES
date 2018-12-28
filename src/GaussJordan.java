@@ -2,16 +2,10 @@ import java.util.Arrays;
 
 public class GaussJordan {
 
-    double matrix2D[][];
-    double vector[];
-
-    public GaussJordan(double[][] matrix2D, double[] vector) {
-        this.matrix2D = matrix2D;
-        this.vector = vector;
+    public GaussJordan() {
     }
 
-
-    public void calculate() {
+    public void calculate(double[][] matrix2D, double[] vector) {
 
         for (int i = 0; i < vector.length; i++) {
             for (int j = 0; j < vector.length; j++) {
@@ -32,6 +26,5 @@ public class GaussJordan {
         System.out.println();
         System.out.println("T E M P E R A T U R Y    K O N C O W E: ");
         System.out.println(Arrays.toString(vector));
-
     }
 }

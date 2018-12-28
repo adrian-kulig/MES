@@ -21,8 +21,8 @@ public class Main {
         grid.fillGlobalVector();
         grid.printGlobalVector();
 
-        GaussJordan gaussJordan = new GaussJordan(grid.HG, grid.PG);
-        gaussJordan.calculate();
+        GaussJordan gaussJordan = new GaussJordan();
+        gaussJordan.calculate(grid.HG, grid.PG);
 
     }
 }
