@@ -1,5 +1,3 @@
-import java.util.Arrays;
-
 public class Main {
 
     public static void main(String[] args) {
@@ -18,14 +16,13 @@ public class Main {
         grid.printGlobalMatrix();
 
         grid.fillGlobalMatrix();
-
         grid.printGlobalMatrix();
 
         grid.fillGlobalVector();
         grid.printGlobalVector();
 
-        GaussJordan gaussJordan = new GaussJordan(grid.HG,grid.PG);
-        gaussJordan.licz();
+        GaussJordan gaussJordan = new GaussJordan(grid.HG, grid.PG);
+        gaussJordan.calculate();
 
     }
 }

@@ -1,7 +1,7 @@
 2            S               przekrój
-50            K               współczynnik przewodzenia cieplnego
+50           K               współczynnik przewodzenia cieplnego
 5            L               długość prenta
-10            alfa            współczynnik wymiany temperatury poprzez konwekcje
-400           tInfinity       temperatura otoczenia
-3             nH              liczba węzłów
--150            q               strumień ciepła
+10           alfa            współczynnik wymiany temperatury poprzez konwekcje
+400          tInfinity       temperatura otoczenia
+3            nH              liczba węzłów
+-150         q               strumień ciepła

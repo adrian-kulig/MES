@@ -41,16 +41,15 @@ public class GlobalData {
     }
 
     public void showData() {
-        System.out.println("Wczytane dane");
-        System.out.println("Przekrój S : " + S);
-        System.out.println("Współczynnik przewodzenia ciepła K : " + K);
-        System.out.println("Długość prenta L : " + L);
-        System.out.println("Współczynnik wymiany temperatury poprzez konwekcje : " + alfa);
-        System.out.println("Temperatura otoczenia : " + tInfinity);
-        System.out.println("Liczba węzłów : " + nH);
-        System.out.println("Liczba elementów : " + nE);
-        System.out.println("Strumień ciepła : " + q);
+        System.out.println("W C Z Y T A N E     D A N E");
+        System.out.println("Przekrój  S : " + S);
+        System.out.println("Współczynnik przewodzenia ciepła  K : " + K);
+        System.out.println("Długość prenta  L : " + L);
+        System.out.println("Współczynnik wymiany temperatury poprzez konwekcje  alfa : " + alfa);
+        System.out.println("Temperatura otoczenia tInfinity : " + tInfinity);
+        System.out.println("Liczba węzłów  nH : " + nH);
+        System.out.println("Liczba elementów  nE : " + nE);
+        System.out.println("Strumień ciepła  q : " + q);
         System.out.println("");
-
     }
 }
