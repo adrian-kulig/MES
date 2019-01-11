@@ -2,8 +2,7 @@ import java.util.Arrays;
 
 public class GaussJordan {
 
-    public GaussJordan() {
-    }
+    public GaussJordan() {}
 
     public void calculate(double[][] matrix2D, double[] vector) {
 

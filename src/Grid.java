@@ -29,7 +29,7 @@ public class Grid {
 
             //Wypełnienie macierzy lokalnej
             double elementLength = elements[i].node2.x - elements[i].node1.x;
-            double C = (GlobalData.S * GlobalData.K) / elementLength;
+            double C = (GlobalData.S * GlobalData.K) / elementLength;  // C [ Vat / *C ]
             elements[i].HL[0][0] = C;
             elements[i].HL[0][1] = -C;
             elements[i].HL[1][0] = -C;
@@ -83,7 +83,7 @@ public class Grid {
 
 
     /**
-     * P R I N T    M E T H O D S
+     * P  R  I  N  T      M  E  T  H  O  D  S
      **/
     public void printNodes() {
         System.out.println("N O D E S");
