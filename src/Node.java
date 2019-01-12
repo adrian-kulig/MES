@@ -1,5 +1,5 @@
 public class Node {
-    double x;
+    double x; // współrzędna węzła
     int id;
 
     /**

@@ -1,9 +1,9 @@
 public class Grid {
-    Node[] nodes;
-    Element[] elements;
-    double[][] HG = new double[GlobalData.nH][GlobalData.nH];
-    double[] PG = new double[GlobalData.nH];
-    double deltaX = (GlobalData.L) / (GlobalData.nH - 1);
+    Node[] nodes; // tablica węzłow
+    Element[] elements; // tablica elementów
+    double[][] HG = new double[GlobalData.nH][GlobalData.nH];  // globalna macierz poj. cieplnej
+    double[] PG = new double[GlobalData.nH]; // globalny wektor obciążeń
+    double deltaX = (GlobalData.L) / (GlobalData.nH - 1); // długość pręta/ liczbę węzłów - 1
 
 
     public Grid() {

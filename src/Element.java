@@ -2,11 +2,11 @@ import java.util.Arrays;
 
 public class Element {
     int ID;
-    Node node1;
-    Node node2;
+    Node node1; // obiekt Node
+    Node node2; // obiekt node
 
-    double[][] HL = new double[2][2]; // macierz pojemności cieplnej (LOKALNA)
-    double[] PL = new double[2]; // Wektor obciążeń
+    double[][] HL = new double[2][2]; // lokalna macierz pojemności cieplnej
+    double[] PL = new double[2]; // lokalny wektor obciążeń
 
 
     public Element(int ID) {
